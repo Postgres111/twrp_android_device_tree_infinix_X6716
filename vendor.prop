@@ -1,0 +1,31 @@
+# USB
+ro.sys.usb.storage.type=mtp
+
+# Crypto
+ro.crypto.volume.filenames_mode=aes-256-cts
+
+# TEE
+ro.vendor.mtk_tee_gp_support=1
+ro.vendor.mtk_microtrust_tee_support=1
+ro.vendor.mtk_widevine_drm_l1_support=1
+ro.vendor.mtk_emmc_support=1
+ro.vendor.mtk_ufs_support=1
+ro.vendor.mtk_f2fs_enable=1
+
+# Beanpod Service
+ro.hardware.gatekeeper=beanpod
+ro.hardware.kmsetkey=beanpod
+
+# Other
+ro.postinstall.fstab.prefix=/system
+ro.apex.updatable=true
+init.userspace_reboot.is_supported=true
+persist.adb.nonblocking_ffs=1
+ro.hardware.egl=meow
+ro.vendor.mediatek.platform=MT6768
+ro.hardware=mt6768
+drm.service.enabled=true
+ro.vendor.mtk_data_config=1
+ro.vendor.mtk_uicc_clf=1
+persist.vendor.mtk.pl_lnk=1
+Build.BRAND=MTK
