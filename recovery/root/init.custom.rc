@@ -1,4 +1,0 @@
-# Added Manual For Beandpod (Trustonic)
-on boot
-    mkdir /mnt/vendor/persist
-    mount ext4 /dev/block/platform/bootdevice/by-name/persist /mnt/vendor/persist rw
