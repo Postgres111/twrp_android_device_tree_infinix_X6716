@@ -29,7 +29,7 @@ export FOX_USE_XZ_UTILS=1
 
 # === Build Metadata ===
 export FOX_BUILD_TYPE="Stable"
-export FOX_VERSION="R11.1_5"
+export FOX_VERSION="R11.1_2"
 export FOX_VARIANT="XOS"
 export OF_MAINTAINER="excaliburXD"
 
